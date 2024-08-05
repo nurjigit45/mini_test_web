@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex justify-center">
+      <div
+        class="border rounded-2xl border-black p-[20px] mt-[60px] min-w-[550px] sm:min-w-[300px] md:min-w-[450px]"
+      >
+        <h3 class="text-[24px] text-center">Log in</h3>
+        <div class="mx-[20px]">
+          <label for="name" class="block mt-[17px]">Your name</label>
+          <input
+            id="name"
+            type="text"
+            class="block border rounded-md border-teal-950 w-[79%] px-[5px] py-[2px]"
+          />
+          <label for="surName" class="block mt-[17px]">Your Surname</label>
+          <input
+            id="surName"
+            type="text"
+            class="block border rounded-md border-teal-950 w-[79%] px-[5px] py-[2px]"
+          />
+          <label for="Password" class="block mt-[17px]">Password</label>
+          <input
+            id="Password"
+            type="password"
+            class="block border rounded-md border-teal-950 w-[79%] px-[5px] py-[2px]"
+            required
+            minlength="6"
+            maxlength="20"
+          />
+          <label for="Password_2" class="block mt-[17px]"> Password</label>
+          <input
+            id="Password_2"
+            type="text"
+            class="block border rounded-md border-teal-950 w-[79%] px-[5px] py-[2px]"
+            required
+            minlength="6"
+            maxlength="20"
+          />
+          <label for="email" class="block leading-7 mt-[17px]">Your email</label>
+          <input
+            id="email"
+            type="text"
+            class="block border rounded-md border-teal-950 w-[79%] px-[5px] py-[2px]"
+          />
+        </div>
+        <div class="mt-[20px] flex ml-[20px]">
+          <input type="checkbox" name="" id="" />
+          <p class="ml-2">You agree to the Terms of Use.</p>
+        </div>
+        <div class="justify-center flex">
+          <button
+            class="border-black border bg-gradient-to-t from-cyan-500 to-blue-500 mt-[20px] p-2 rounded-xl w-1/3 hover:bg-cyan-500 hover:text-indigo-500"
+          >
+            Log in
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
